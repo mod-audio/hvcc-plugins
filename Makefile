@@ -35,7 +35,7 @@ build/%/dpf-widgets: dpf-widgets
 	-@mkdir -p build/$*
 	ln -s $(abspath $<) $@
 
-build/%/Makefile: hvcc/build/bin/hvcc plugins/%/plugin.json plugins/%/plugin.pd
+build/%/Makefile: hvcc/build/lib/hvcc/__init__.py plugins/%/plugin.json plugins/%/plugin.pd
 	env PYTHONPATH=$(CURDIR)/hvcc/build/lib \
 	python3 ./hvcc/build/lib/hvcc/__init__.py \
 		plugins/$*/plugin.pd \
@@ -47,10 +47,10 @@ build/%/Makefile: hvcc/build/bin/hvcc plugins/%/plugin.json plugins/%/plugin.pd
 dpf/utils/lv2_ttl_generator$(APP_EXT):
 	$(MAKE) -C dpf/utils/lv2-ttl-generator
 
-hvcc/build/bin/hvcc:
+hvcc/build/lib/hvcc/__init__.py:
 	cd hvcc && \
 	python3 -m pip install --isolated --no-cache-dir --no-input -q -r requirements.txt && \
-	python3 setup.py build
+	[ -e build ] || python3 setup.py build
 
 # ---------------------------------------------------------------------------------------------------------------------
 # cleanup
