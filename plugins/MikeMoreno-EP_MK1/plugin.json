@@ -1,0 +1,20 @@
+{
+    "dpf": {
+        "project": true,
+        "description": "EP-MK1 is a real-time physical model of an Electric Piano",
+        "homepage": "https://github.com/MikeMorenoDSP/EP-MK1",
+        "license": "GPL-3.0",
+        "lv2_info": "lv2:InstrumentPlugin",
+        "maker": "Miguel Moreno",
+        "midi_input": 1,
+        "midi_output": 0,
+        "plugin_formats": [
+            "clap",
+            "jack",
+            "lv2_sep",
+            "vst2",
+            "vst3"
+        ],
+        "plugin_uri": "urn:hvcc:MikeMoreno:EP_MK1"
+    }
+}

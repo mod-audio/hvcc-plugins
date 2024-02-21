@@ -1,0 +1,9 @@
+[submodule "dpf"]
+	path = dpf
+	url = https://github.com/DISTRHO/DPF.git
+[submodule "dpf-widgets"]
+	path = dpf-widgets
+	url = https://github.com/DISTRHO/DPF-Widgets.git
+[submodule "hvcc"]
+	path = hvcc
+	url = https://github.com/Wasted-Audio/hvcc.git
