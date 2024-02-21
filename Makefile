@@ -48,7 +48,7 @@ dpf/utils/lv2_ttl_generator$(APP_EXT):
 	$(MAKE) -C dpf/utils/lv2-ttl-generator
 
 hvcc/build/bin/hvcc:
-	cd hvcc && python3 setup.py build
+	cd hvcc && python3 -m pip install -r requirements.txt
 
 # ---------------------------------------------------------------------------------------------------------------------
 # cleanup
