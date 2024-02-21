@@ -5,7 +5,7 @@
 #X obj 72 171 r \$0-poly;
 #X obj 72 192 route 1;
 #X obj 57 495 *~ 0.7;
-#X obj 57 516 clip~ -1 1;
+#X obj 57 516 clip~ -2 2;
 #X obj 57 537 hip~ 3;
 #X obj 57 558 *~ 0.7;
 #X obj 57 579 dac~ 1 2;

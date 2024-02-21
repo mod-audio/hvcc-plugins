@@ -29,10 +29,9 @@ Inside each plugin folder there are at least 3 files:
 
 The first file is meant for hvcc, it sets up branding, plugin categories and audio port count.
 It is safe to copy this file to another plugin for a starting point, but then make sure to edit the fields as necessary.
-The URI of the plugin **must** match the folder name in the style of "urn:hvcc:brandname:pluginname" (so keep the "urn:hvcc:" and change the rest)
 
 Then we have the puredata entry point file as `plugin.pd`.
-It can reference and include other files on this same directory, but the entry point **must have this filename**.
+It can reference and include other files on the same directory or even subdirectories, but the entry point **must have this filename**.
 
 And finally a readme just to give some details on the plugin and any relevant information.
 
