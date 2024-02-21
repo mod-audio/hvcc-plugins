@@ -1,0 +1,21 @@
+{
+    "dpf": {
+        "project": true,
+        "description": "Basic delay with dry/wet, delay-time and feedback controls",
+        "homepage": "https://github.com/Wasted-Audio/hvcc-examples",
+        "license": "ISC",
+        "maker": "Wasted Audio",
+        "midi_input": 0,
+        "midi_output": 0,
+        "plugin_formats": [
+            "clap",
+            "jack",
+            "lv2_sep",
+            "vst2",
+            "vst3"
+        ],
+        "clap_info": [ "audio-effect", "delay", "stereo" ],
+        "lv2_info": "lv2:DelayPlugin",
+        "vst3_info": "Fx|Delay|Stereo"
+    }
+}
