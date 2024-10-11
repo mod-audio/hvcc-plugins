@@ -21,6 +21,7 @@ jobs:
       - uses: distrho/dpf-makefile-action@v1
         with:
           target: ${{ matrix.target }}
+          hvcc: true
 
   macos:
     strategy:
@@ -34,6 +35,7 @@ jobs:
       - uses: distrho/dpf-makefile-action@v1
         with:
           target: ${{ matrix.target }}
+          hvcc: true
 
   windows:
     strategy:
@@ -47,6 +49,7 @@ jobs:
       - uses: distrho/dpf-makefile-action@v1
         with:
           target: ${{ matrix.target }}
+          hvcc: true
 
   pluginval:
     runs-on: ubuntu-22.04
@@ -57,3 +60,4 @@ jobs:
       - uses: distrho/dpf-makefile-action@v1
         with:
           target: pluginval
+          hvcc: true

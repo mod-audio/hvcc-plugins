@@ -1,0 +1,93 @@
+.mod-pedal-freezer {
+    background-image: url(/resources/bg.png{{{ns}}});
+    width: 258px;
+    height: 482px;
+}
+.mod-pedal-freezer .mod-pedal-input{
+left: -65px;
+}
+.mod-pedal-freezer .mod-pedal-output{
+left: 235px;
+}
+.mod-pedal-freezer .mod-toggle{
+    background-image: url(/resources/tap.png{{{ns}}});
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: auto 43px;
+    width: 45px;
+    height: 43px;
+	position: absolute;
+	z-index: 50;
+	left: 110px;
+	top: 374px;
+}
+
+.mod-pedal-freezer .mod-pedal-knob{
+    background-image: url(/resources/knob.png{{{ns}}});
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: auto 59px;
+    height: 59px;
+    width: 60px;
+    margin: 0 auto;
+	position: absolute;
+	z-index: 40;
+}
+.mod-pedal-freezer .mod-pedal-knob.attack_knob{
+	left: 36px;
+	top: 35px;
+}
+.mod-pedal-freezer .mod-pedal-knob.decay_knob{
+	left: 153px;
+	top: 35px;
+}
+
+.mod-pedal-freezer .mod-pedal-knob.dry_knob{
+	left: 36px;
+	top: 127px;
+}
+.mod-pedal-freezer .mod-pedal-knob.wet_knob{
+	left: 153px;
+	top: 127px;
+}
+
+.mod-pedal-freezer .mod-pedal-knob_small{
+    background-image: url(/resources/knob_small.png{{{ns}}});
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: auto 42px;
+    height: 42px;
+    width: 43px;
+    margin: 0 auto;
+	position: absolute;
+	z-index: 40;
+}
+.mod-pedal-freezer .mod-pedal-knob_small.layer_knob{
+	left: 105px;
+	top: 185px;
+}
+.mod-pedal-freezer .mod-pedal-knob_small.vol_knob{
+	left: 104px;
+	top: 87px;
+}
+
+
+.mod-pedal-freezer .mod-switch {
+    background-image: url(/resources/switch.png{{{ns}}});
+    position: absolute;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 106 35px;
+    cursor: pointer;
+    height: 35px;
+    width: 53px;
+	left: 44px;
+	top: 225px;	
+	z-index: 40;
+}
+.mod-pedal-freezer .mod-switch.on {
+    background-position:center left;
+}
+.mod-pedal-freezer .mod-switch.off {
+    background-position:center right;
+}

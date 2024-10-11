@@ -1,0 +1,15 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<urn:hvcc:Freezer>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon.html> ;
+        modgui:stylesheet <modgui/stylesheet.css> ;
+        modgui:screenshot <modgui/screen.png> ;
+        modgui:thumbnail <modgui/thumbnail.png> ;        
+    
+
+	
+	
+	] .

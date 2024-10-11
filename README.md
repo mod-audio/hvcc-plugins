@@ -37,7 +37,7 @@ And finally a readme just to give some details on the plugin and any relevant in
 
 ### BUILDING
 
-For building you will need a POSIX-compliant compiler (GCC or Clang) plus GNU Make.  
+For building you will need a POSIX-compliant compiler (GCC or Clang), plus [hvcc](https://wasted-audio.github.io/hvcc/) and GNU Make.  
 Building is a simple as running `make` after cloning this repository, assuming you have the needed tools installed.
 
 Note that this repository uses git submodules, so cloning with `git clone --recursive` is required.
@@ -55,7 +55,7 @@ make moddwarf
 
 Change `moddwarf` to `modduo` or `modduox` if applicable.
 
-After building, you can directly push the bundle into a MOD unit over USB by running:
+After building, you can directly push the plugin bundles into a MOD unit over USB by running:
 
 ```sh
 make modpush

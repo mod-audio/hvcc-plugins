@@ -2,7 +2,6 @@
     "dpf": {
         "project": true,
         "description": "Freezer sample and hold notes or chords with infinite sustain",
-        "homepage": "",
         "license": "ISC",
         "maker": "J.Velcl@seznam.cz",
         "midi_input": 0,
@@ -14,6 +13,7 @@
             "vst2",
             "vst3"
         ],
-        "lv2_info": "lv2:UtilityPlugin"
+        "lv2_info": "lv2:UtilityPlugin",
+        "enable_modgui": true
     }
 }
