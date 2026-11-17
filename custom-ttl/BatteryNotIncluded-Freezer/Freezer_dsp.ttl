@@ -181,7 +181,7 @@
     mod:label "Freezer" ;
 
     doap:maintainer [
-        foaf:name "J.Velcl@seznam.cz" ;
+        foaf:name "Jacube" ;
     ] ;
 
     lv2:microVersion 0 ;
