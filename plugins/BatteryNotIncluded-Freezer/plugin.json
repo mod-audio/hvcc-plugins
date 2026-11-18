@@ -3,7 +3,7 @@
         "project": true,
         "description": "Freezer sample and hold notes or chords with infinite sustain",
         "license": "ISC",
-        "maker": "J.Velcl@seznam.cz",
+        "maker": "Jacube",
         "midi_input": 0,
         "midi_output": 0,
         "plugin_formats": [
